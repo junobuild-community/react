@@ -1,5 +1,8 @@
 # juno-react
 
+> [!NOTE]
+> The library is under development and has not been published yet.
+
 ```sh
 npm i juno-react
 ```
