@@ -11,5 +11,5 @@
     "moduleDetection": "force",
     "noEmit": true
   },
-  "include": ["packages/demo/vite.config.ts"]
+  "include": ["vite.config.ts"]
 }
