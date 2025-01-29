@@ -1,11 +1,11 @@
-import { Button } from "juno-react";
-import { useState } from "react";
-import "./App.css";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { Button } from "packages/lib/components/Button"
+import { useState } from "react"
+import "./App.css"
+import reactLogo from "./assets/react.svg"
+import viteLogo from "/vite.svg"
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
       <div className="card">
         <Button
           onClick={() => {
-            setCount((count) => count + 1);
+            setCount((count) => count + 1)
           }}
         >
           count is {count}
@@ -34,7 +34,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -2,6 +2,7 @@ import react from "@vitejs/plugin-react";
 import { glob } from "glob";
 import { dirname, extname, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import path from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 import { libInjectCss } from "vite-plugin-lib-inject-css";
@@ -43,6 +44,11 @@ export default defineConfig({
         assetFileNames: "assets/[name][extname]",
         entryFileNames: "[name].js",
       },
+    },
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./lib"),
     },
   },
 });

@@ -1,0 +1,16 @@
+{
+  "id": "index",
+  "title": "Juno React Docs",
+  "description": "Goals",
+  "source": "@site/content/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/junobuild-community/react/edit/main/packages/docs/content/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs"
+}
