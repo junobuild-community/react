@@ -1,11 +1,10 @@
 import { useContext } from "react";
 import { junoContext } from "../providers/junoProvider";
 
-function useJuno() {
+export const useJuno = () => {
   const authContext = useContext(junoContext);
   if (!authContext) {
-    throw new Error("is not valid");
+    throw new Error("useJuno must be used within a JunoProvider");
   }
   return authContext;
-}
-export default useJuno;
+};

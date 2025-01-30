@@ -1,4 +1,4 @@
-import { Button } from "packages/lib/components/Button"
+import { Button } from "@/components/Button"
 import { useState } from "react"
 import "./App.css"
 import reactLogo from "./assets/react.svg"

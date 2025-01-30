@@ -1,0 +1,24 @@
+{
+  "id": "Repository copy/index",
+  "title": "Repository",
+  "description": "",
+  "source": "@site/content/Repository copy/index.md",
+  "sourceDirName": "Repository copy",
+  "slug": "/Repository copy/",
+  "permalink": "/Repository copy/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/junobuild-community/react/edit/main/packages/docs/content/Repository copy/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Repository",
+    "permalink": "/Repository/"
+  },
+  "next": {
+    "title": "Welcome to Juno React",
+    "permalink": "/"
+  }
+}

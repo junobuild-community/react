@@ -1,7 +1,7 @@
 import { setDoc } from "@junobuild/core";
 import { nanoid } from "nanoid";
 import { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../context/authContext";
+import { AuthContext } from "../contexts/authContext";
 
 interface DocType {
   data: any;

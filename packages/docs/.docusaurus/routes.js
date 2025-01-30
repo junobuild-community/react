@@ -39,16 +39,34 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'd77'),
+    component: ComponentCreator('/', '6da'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '116'),
+        component: ComponentCreator('/', '557'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '71d'),
+            component: ComponentCreator('/', '5c5'),
             routes: [
+              {
+                path: '/Demo App/',
+                component: ComponentCreator('/Demo App/', 'c6e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/Juno React/',
+                component: ComponentCreator('/Juno React/', 'afe'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/Repository/',
+                component: ComponentCreator('/Repository/', '6d9'),
+                exact: true,
+                sidebar: "docs"
+              },
               {
                 path: '/',
                 component: ComponentCreator('/', 'ce7'),

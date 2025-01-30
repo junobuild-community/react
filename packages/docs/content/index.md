@@ -1,4 +1,4 @@
-# Juno React Docs
+# Welcome to Juno React
 
 ## Goals
 

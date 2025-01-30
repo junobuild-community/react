@@ -1,6 +1,6 @@
 {
   "id": "index",
-  "title": "Juno React Docs",
+  "title": "Welcome to Juno React",
   "description": "Goals",
   "source": "@site/content/index.md",
   "sourceDirName": ".",
@@ -12,5 +12,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "docs"
+  "sidebar": "docs",
+  "next": {
+    "title": "Demo App",
+    "permalink": "/Demo App/"
+  }
 }

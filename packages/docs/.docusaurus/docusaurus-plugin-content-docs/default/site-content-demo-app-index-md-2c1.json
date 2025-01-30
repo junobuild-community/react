@@ -1,0 +1,24 @@
+{
+  "id": "Demo App/index",
+  "title": "Demo App",
+  "description": "",
+  "source": "@site/content/Demo App/index.md",
+  "sourceDirName": "Demo App",
+  "slug": "/Demo App/",
+  "permalink": "/Demo App/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/junobuild-community/react/edit/main/packages/docs/content/Demo App/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Welcome to Juno React",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Juno React Library",
+    "permalink": "/Juno React/"
+  }
+}

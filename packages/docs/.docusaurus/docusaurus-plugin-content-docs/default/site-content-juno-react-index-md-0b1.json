@@ -1,0 +1,24 @@
+{
+  "id": "Juno React/index",
+  "title": "Juno React Library",
+  "description": "Defined your Juno Data Context",
+  "source": "@site/content/Juno React/index.md",
+  "sourceDirName": "Juno React",
+  "slug": "/Juno React/",
+  "permalink": "/Juno React/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/junobuild-community/react/edit/main/packages/docs/content/Juno React/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Demo App",
+    "permalink": "/Demo App/"
+  },
+  "next": {
+    "title": "Repository",
+    "permalink": "/Repository/"
+  }
+}
