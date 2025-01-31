@@ -1,0 +1,59 @@
+{
+  "name": "@junobuild-community/react",
+  "description": "A collection of hooks, contexts, and utilities designed to easily integrate Juno into React applications",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/main.js",
+  "types": "./dist/lib/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/lib/main.d.ts",
+      "default": "./dist/main.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junobuild-community/react"
+  },
+  "scripts": {
+    "build": "tsc -b ./tsconfig.json && vite build",
+    "test": "vitest",
+    "lint": "eslint .",
+    "format": "prettier . --write"
+  },
+  "peerDependencies": {
+    "@junobuild/core": "^0.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "fake-indexeddb": "^6.0.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4",
+    "vite": "^6.0.11",
+    "vite-plugin-dts": "^4.5.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "juno",
+    "react",
+    "hooks",
+    "web3",
+    "blockchain"
+  ],
+  "license": "MIT"
+}

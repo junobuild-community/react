@@ -1,12 +1,13 @@
 {
-  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2023"],
     "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
     "moduleResolution": "bundler",
-    "noEmit": false,
-    "allowImportingTsExtensions": false
+    "allowSyntheticDefaultImports": true,
+    "strict": false, // Disable all strict type-checking options
+    "noImplicitAny": false, // Allow implicit 'any' types
+    "strictNullChecks": true // Disable strict null checks
   },
   "include": ["vite.config.ts"]
 }

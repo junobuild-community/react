@@ -18,9 +18,9 @@ export default tseslint.config(
       globals: globals.browser,
       parserOptions: {
         project: [
-          "./tsconfig.node.json",
-          "./tsconfig.app.json",
-          "./tsconfig.lib.json",
+          "./packages/demo/tsconfig.node.json",
+          "./packages/demo/tsconfig.json",
+          "./packages/juno-react/tsconfig.json",
         ],
         tsconfigRootDir: import.meta.dirname,
       },

@@ -1,40 +1,51 @@
-import { Button } from "@/components/Button"
-import { useState } from "react"
 import "./App.css"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
+import { BrowserRouter as Router } from "react-router-dom"
+import router from "./router"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <Button
-          onClick={() => {
-            setCount((count) => count + 1)
-          }}
-        >
-          count is {count}
-        </Button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Router>
+      {router}
+    </Router>
   )
 }
 
 export default App
+
+
+// App.tsx
+// import { initSatellite } from '@junobuild/core'
+// import { useEffect, useState } from 'react'
+// import { TodoList } from './components/TodoList/TodoList'
+
+// function App() {
+//   const [initialized, setInitialized] = useState(false)
+
+//   useEffect(() => {
+//     const init = async () => {
+//       try {
+//         // Replace with your satellite ID
+//         await initSatellite({
+//           satelliteId: 'your-satellite-id-here'
+//         })
+//         setInitialized(true)
+//       } catch (error) {
+//         console.error('Failed to initialize Juno:', error)
+//       }
+//     }
+
+//     init()
+//   }, [])
+
+//   if (!initialized) {
+//     return <div>Initializing Juno...</div>
+//   }
+
+//   return (
+//     <div className="min-h-screen bg-gray-50 py-8">
+//       <TodoList />
+//     </div>
+//   )
+// }
+
+// export default App

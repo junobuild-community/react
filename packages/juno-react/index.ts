@@ -5,5 +5,5 @@
 export { useJuno } from "./hooks/useJuno";
 
 // Export contexts
-export { JunoProvider } from "./profiders/JunoProvider";
-export { JunoDataContext } from "./providers/JunoDataContext";
+export { JunoContext } from "./providers/junoContext";
+export { JunoProvider } from "./providers/junoProvider";

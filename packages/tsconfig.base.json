@@ -9,6 +9,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "isolatedModules": true,
-    "noEmit": true
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@juno-react/*": ["packages/juno-react/*"]
+    },
+    "jsx": "react-jsx"
   }
 }

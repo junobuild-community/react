@@ -1,15 +1,16 @@
-import React from "react";
-import user from "../hooks/useAuth";
+import { FC, PropsWithChildren } from "react"
+import { JunoContext } from "./junoContext"
 
-interface junoProviderProps {
-  satelliteId: string;
-  children: React.ReactNode;
+interface JunoProviderProps extends PropsWithChildren {
+  satelliteId: string
 }
 
-export const junoContext = React.createContext(user);
+export const JunoProvider: FC<JunoProviderProps> = (props) => {
+  const { satelliteId, children } = props
 
-export function JunoProvider({ satelliteId, children }: junoProviderProps) {
-  satelliteId;
-
-  return <junoContext.Provider value={user}>{children}</junoContext.Provider>;
+  return (
+    <JunoContext.Provider value={satelliteId}>
+      {children}
+    </JunoContext.Provider>
+  )
 }

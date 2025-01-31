@@ -1,4 +1,7 @@
 {
   "files": [],
-  "references": [{ "path": "./packages/demo" }]
+  "references": [
+    { "path": "./packages/demo" },
+    { "path": "./packages/juno-react" }
+  ]
 }

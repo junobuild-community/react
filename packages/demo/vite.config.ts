@@ -14,7 +14,7 @@ export default defineConfig({
     react(),
     libInjectCss(),
     dts({
-      tsconfigPath: resolve(__dirname, "tsconfig.lib.json"),
+      tsconfigPath: resolve(__dirname, "tsconfig.node.json"),
     }),
   ],
   build: {
@@ -49,6 +49,12 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "@juno-react": path.resolve(__dirname, "../juno-react"),
+    },
+  },
+  server: {
+    fs: {
+      allow: [".."],
     },
   },
 });
