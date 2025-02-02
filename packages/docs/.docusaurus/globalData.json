@@ -21,6 +21,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "Juno React/components/AuthGuard",
+              "path": "/Juno React/components/AuthGuard",
+              "sidebar": "docs"
+            },
+            {
               "id": "Juno React/index",
               "path": "/Juno React/",
               "sidebar": "docs"

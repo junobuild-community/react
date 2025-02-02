@@ -1,11 +1,14 @@
-export interface Todo {
+import { Doc } from "@junobuild/core";
+
+interface TodoData {
+  title: string;
+  completed: boolean;
+  createdAt: number;
+  updatedAt: number;
+}
+
+export interface Todo extends Doc<TodoData> {
   key: string;
-  data: {
-    title: string;
-    completed: boolean;
-    createdAt: number;
-    updatedAt: number;
-  };
   description?: string;
   version?: bigint;
 }

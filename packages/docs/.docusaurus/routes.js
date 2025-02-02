@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '6da'),
+    component: ComponentCreator('/', 'b09'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '557'),
+        component: ComponentCreator('/', '834'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '5c5'),
+            component: ComponentCreator('/', '5c1'),
             routes: [
               {
                 path: '/Demo App/',
@@ -58,6 +58,12 @@ export default [
               {
                 path: '/Juno React/',
                 component: ComponentCreator('/Juno React/', 'afe'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/Juno React/components/AuthGuard',
+                component: ComponentCreator('/Juno React/components/AuthGuard', 'f35'),
                 exact: true,
                 sidebar: "docs"
               },

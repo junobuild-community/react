@@ -27,7 +27,8 @@
     "format:check": "prettier --check .",
     "test": "tsc -b tsconfig.spec.json --noEmit && vitest",
     "predemo": "npm run build",
-    "demo": "npm run dev -w packages/demo"
+    "demo": "npm run dev -w packages/juno",
+    "docs": "npm run start -w packages/docs"
   },
   "peerDependencies": {
     "@junobuild/core": "^0.1.0",

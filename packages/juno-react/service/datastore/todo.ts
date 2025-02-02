@@ -24,7 +24,7 @@ export class TodoService {
       });
 
       return result as Todo;
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error creating todo:", error);
       throw error;
     }
@@ -46,7 +46,7 @@ export class TodoService {
       });
 
       return result as Todo;
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error updating todo:", error);
       throw error;
     }
@@ -69,7 +69,7 @@ export class TodoService {
       });
 
       return result as Todo;
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error toggling todo completion:", error);
       throw error;
     }
@@ -81,7 +81,7 @@ export class TodoService {
         collection: this.collection,
         doc: todo,
       });
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error deleting todo:", error);
       throw error;
     }
@@ -95,7 +95,7 @@ export class TodoService {
       });
 
       return result as Todo;
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error getting todo:", error);
       throw error;
     }
@@ -114,7 +114,7 @@ export class TodoService {
       });
 
       return result.items as Todo[];
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error listing todos:", error);
       throw error;
     }
@@ -137,7 +137,7 @@ export class TodoService {
       });
 
       return result.items as Todo[];
-    } catch (error) {
+    } catch (error: unknown) {
       console.error("Error listing completed todos:", error);
       throw error;
     }
