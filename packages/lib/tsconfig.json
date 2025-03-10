@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "moduleResolution": "bundler",
+    "module": "es2015",
+    "types": ["react/jsx-runtime"],
+    "outDir": "./dist",
+    "rootDir": ".",
+    "composite": true,
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "src/**/*",
+    "hooks/**/*",
+    "contexts/**/*",
+    "components/**/*",
+    "providers/**/*",
+    "index.ts",
+    "vite.config.ts"
+  ],
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"]
+}

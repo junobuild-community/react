@@ -17,10 +17,7 @@ export default tseslint.config(
       ecmaVersion: 2020,
       globals: globals.browser,
       parserOptions: {
-        project: [
-          "./packages/juno/tsconfig.json",
-          "./packages/juno-react/tsconfig.json",
-        ],
+        projectService: true,
         tsconfigRootDir: import.meta.dirname,
       },
     },

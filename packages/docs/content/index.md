@@ -5,7 +5,7 @@
 ### Repository Goals
 
 - Keep the library separate from the demo app.
-- Make the library available on NPM (through the `@junobuild/juno-react` package).
+- Make the library available on NPM (through the `@junobuild-community/react` package).
 - Explain how to use the library.
 
 ### Demo App Goals

@@ -1,5 +1,5 @@
 {
-  "name": "juno-react",
+  "name": "junobuild-community-react",
   "description": "A collection of hooks, contexts, and utilities designed to easily integrate Juno into React applications",
   "private": true,
   "version": "0.0.1",
@@ -21,7 +21,7 @@
     "**/*.css"
   ],
   "scripts": {
-    "build": "tsc -b ./packages/juno-react/tsconfig.json",
+    "build": "tsc -b ./packages/lib/tsconfig.json",
     "lint": "eslint .",
     "format": "prettier . --write",
     "format:check": "prettier --check .",
