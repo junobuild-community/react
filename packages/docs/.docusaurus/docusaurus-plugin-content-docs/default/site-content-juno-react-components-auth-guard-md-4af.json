@@ -1,0 +1,24 @@
+{
+  "id": "Juno React/components/AuthGuard",
+  "title": "AuthGuard",
+  "description": "The AuthGuard component is a wrapper that addresses the issue of unauthenticated users accessing content that depends on authentication. If the user is not authenticated, it will display your error message or your component if either are passed in as a prop.",
+  "source": "@site/content/Juno React/components/AuthGuard.md",
+  "sourceDirName": "Juno React/components",
+  "slug": "/Juno React/components/AuthGuard",
+  "permalink": "/Juno React/components/AuthGuard",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/junobuild-community/react/edit/main/packages/docs/content/Juno React/components/AuthGuard.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "Demo App",
+    "permalink": "/Demo App/"
+  },
+  "next": {
+    "title": "Juno React Library",
+    "permalink": "/Juno React/"
+  }
+}

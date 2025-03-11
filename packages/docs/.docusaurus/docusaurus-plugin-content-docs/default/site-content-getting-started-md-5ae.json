@@ -1,0 +1,20 @@
+{
+  "id": "getting-started",
+  "title": "getting-started",
+  "description": "",
+  "source": "@site/content/getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/junobuild-community/react/edit/main/packages/docs/content/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "next": {
+    "title": "Juno React Docs",
+    "permalink": "/"
+  }
+}

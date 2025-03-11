@@ -1,0 +1,53 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "Demo App/index",
+              "path": "/Demo App/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Juno React/components/AuthGuard",
+              "path": "/Juno React/components/AuthGuard",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Juno React/index",
+              "path": "/Juno React/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "Repository/index",
+              "path": "/Repository/",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
